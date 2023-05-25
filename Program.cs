@@ -61,9 +61,20 @@
 
 // Task 66++: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 
-int SumBetweenNumbers(int m, int n)
-{
-    if(n >= m) return n + SumBetweenNumbers(m, n-1);
-    return 0;
-}
-Console.Write(SumBetweenNumbers(4,8));
+// int SumBetweenNumbers(int m, int n)
+// {
+//     if(n >= m) return n + SumBetweenNumbers(m, n-1);
+//     return 0;
+// }
+// Console.Write(SumBetweenNumbers(4,8));
+
+// Task 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+
+// int Akkerman(int m, int n)
+// {
+//     if(m == 0) return n+1;
+//     else if(n == 0) return Akkerman(m-1, 1);
+//     else return Akkerman(m-1, Akkerman(m, n-1));
+// }
+
+// Console.Write(Akkerman(3,2));
